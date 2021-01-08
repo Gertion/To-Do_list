@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(96deg, rgba(52,5,71,1) 0%, rgba(106,50,129,1) 50%, rgba(52,5,71,1) 100%);
+
+}
+
+input{
+    outline:none;
+    font-size: 15px;
+    background-color: white;
+    flex-grow: 1;
+    min-width: 0;
+    border: none;
+    padding: 10px;
+
+
+}
+p{
+    font-size: 18px;
+    font-family: 'Amatic SC', cursive;
+}
+.main{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin-bottom: 10px;
+
+}
+#Add{
+    align-self: stretch;
+    border: 0;
+    outline:none;
+    background-color: white;
+    padding: 0 6px;
+}
+button:active {
+    filter: contrast(90%)
+}
+
+h1{
+    font-size: 40px;
+    margin: 15px;
+    color: white;
+    text-shadow: 0 0 0 #bcbcbc, 4px 4px 0 mediumpurple;
+}
+
+
+.list{
+    display: flex;
+    width: 100%;
+    max-width: 400px;
+    background-color: aqua;
+    font-size: 26px;
+    flex-direction: column;
+    overflow-x: scroll;
+    font-size: 23px;
+    font-family: 'Amatic SC', cursive;
+
+
+}
+.list > ul {
+    margin-left: 2em;
+    line-height: 2em;
+}
+#Clear{
+    border: 0;
+    outline: none;
+}
+
+#Clear{
+    align-self: flex-end;
+    margin: 0 5px 5px 0;
+    font-size: 16px;
+    padding: 3px 5px;
+}
